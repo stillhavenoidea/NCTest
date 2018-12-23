@@ -29,13 +29,6 @@ class LocationFetcher {
             getPlaceNames(clLocation: fetchedLocation, completion: complition)
         } else {
             print("Location: No fetched location")
-            
-            //debug
-            let  clLocation = CLLocation(latitude: 53.9620, longitude: 27.6733)
-            location.latitude = clLocation.coordinate.latitude
-            location.longtitude = clLocation.coordinate.longitude
-            getPlaceNames(clLocation: clLocation, completion: complition)
-            ///////
         }
     }
     

@@ -18,7 +18,8 @@ class LocationViewController: UIViewController {
     @IBOutlet weak var longtitudeLabel: UILabel!
     @IBOutlet weak var placeLabel: UILabel!
     @IBOutlet weak var weatherLabel: UILabel!
-
+    @IBOutlet weak var stackView: UIStackView!
+    
     var locationFetcher = LocationFetcher()
     var areaInfo = AreaInfo()
     
@@ -31,6 +32,7 @@ class LocationViewController: UIViewController {
         super.viewDidAppear(animated)
         displayAreaInfo(areaInfo: areaInfo)
     }
+    
     
     func fetchAreaInfo()  {
         locationFetcher.fetchLocation() { location in
