@@ -13,7 +13,6 @@
 		DCCEE0FB21CEFBD6000A913E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCEE0FA21CEFBD6000A913E /* Assets.xcassets */; };
 		DCCEE0FE21CEFBD6000A913E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCEE0FC21CEFBD6000A913E /* LaunchScreen.storyboard */; };
 		DCCEE10921CEFC95000A913E /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCEE10521CEFC94000A913E /* HistoryTableViewCell.swift */; };
-		DCCEE10A21CEFC95000A913E /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCEE10621CEFC94000A913E /* LocationManager.swift */; };
 		DCCEE10B21CEFC95000A913E /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCEE10721CEFC94000A913E /* LocationViewController.swift */; };
 		DCCEE10C21CEFC95000A913E /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCEE10821CEFC95000A913E /* HistoryViewController.swift */; };
 		DCF27E7321CFB5AB00E13C56 /* LocationFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF27E7221CFB5AB00E13C56 /* LocationFetcher.swift */; };
@@ -32,7 +31,6 @@
 		DCCEE0FD21CEFBD6000A913E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCCEE0FF21CEFBD6000A913E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCCEE10521CEFC94000A913E /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
-		DCCEE10621CEFC94000A913E /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		DCCEE10721CEFC94000A913E /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		DCCEE10821CEFC95000A913E /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		DCF27E7221CFB5AB00E13C56 /* LocationFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationFetcher.swift; sourceTree = "<group>"; };
@@ -92,7 +90,6 @@
 			children = (
 				DCCEE0F321CEFBD5000A913E /* AppDelegate.swift */,
 				DCCEE10521CEFC94000A913E /* HistoryTableViewCell.swift */,
-				DCCEE10621CEFC94000A913E /* LocationManager.swift */,
 				DCCEE10721CEFC94000A913E /* LocationViewController.swift */,
 				DCF27E7621D0016000E13C56 /* WeatherFetcher.swift */,
 				DCB2F4C921D00CC500F594F6 /* AreaInfo.swift */,
@@ -232,7 +229,6 @@
 			files = (
 				DCF27E7721D0016000E13C56 /* WeatherFetcher.swift in Sources */,
 				DCCEE10C21CEFC95000A913E /* HistoryViewController.swift in Sources */,
-				DCCEE10A21CEFC95000A913E /* LocationManager.swift in Sources */,
 				DCF27E7321CFB5AB00E13C56 /* LocationFetcher.swift in Sources */,
 				DCCEE10921CEFC95000A913E /* HistoryTableViewCell.swift in Sources */,
 				DCCEE10B21CEFC95000A913E /* LocationViewController.swift in Sources */,

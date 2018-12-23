@@ -8,6 +8,7 @@
 
 import Foundation
 import CoreLocation
+import RealmSwift
 
 class LocationFetcher {
 
@@ -30,8 +31,10 @@ class LocationFetcher {
             print("Location: No fetched location")
             
             //debug
-            let  location = CLLocation(latitude: 53.9620, longitude: 27.6733)
-            getPlaceNames(clLocation: location, completion: complition)
+            let  clLocation = CLLocation(latitude: 53.9620, longitude: 27.6733)
+            location.latitude = clLocation.coordinate.latitude
+            location.longtitude = clLocation.coordinate.longitude
+            getPlaceNames(clLocation: clLocation, completion: complition)
             ///////
         }
     }
@@ -84,7 +87,7 @@ class LocationFetcher {
 }
 
 class Location {
-    var latitude = 53.9620
-    var longtitude = 27.6733
-    var placename = "Not set"
+    var latitude = 0.0
+    var longtitude = 0.0
+    var placename = ""
 }

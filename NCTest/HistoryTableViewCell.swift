@@ -2,8 +2,8 @@
 //  HistoryTableViewCell.swift
 //  NybleCraftTest
 //
-//  Created by MyMac on 16.12.18.
-//  Copyright © 2018 SoftDevelopingOrganizationName. All rights reserved.
+//  Created by Valdis Doroshenkas on 12/23/18.
+//  Copyright © 2018 Valdis Doroshenkas. All rights reserved.
 //
 
 import UIKit

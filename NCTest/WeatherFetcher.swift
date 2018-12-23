@@ -36,11 +36,11 @@ class WeatherFetcher {
 }
 
 class WeatherForecast: Codable {
-    var currently: CurrentWeather!
-    
-    class CurrentWeather: Codable {
-        var summary: String = "N/A"
-        var temperature: Double = 0.0
-        var pressure: Double = 0.0
-    }
+    var currently: CurrentWeather
+}
+
+class CurrentWeather: Codable {
+    var summary: String = "N/A"
+    var temperature: Double = 0.0
+    var pressure: Double = 0.0
 }

@@ -11,6 +11,10 @@ import RealmSwift
 
 class AreaInfo: Object {
     @objc dynamic var date = Date()
-    @objc dynamic var location: Location!
-    @objc dynamic var weatherForecast: WeatherForecast!
+    @objc dynamic var latitude = 0.0
+    @objc dynamic var longtitude = 0.0
+    @objc dynamic var placename = ""
+    @objc dynamic var summary = ""
+    @objc dynamic var temperature = 0.0
+    @objc dynamic var pressure = 0.0
 }
