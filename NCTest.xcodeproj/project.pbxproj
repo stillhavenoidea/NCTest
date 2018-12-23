@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		DCCEE0F421CEFBD5000A913E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCEE0F321CEFBD5000A913E /* AppDelegate.swift */; };
-		DCCEE0F621CEFBD5000A913E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCEE0F521CEFBD5000A913E /* ViewController.swift */; };
 		DCCEE0F921CEFBD5000A913E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCEE0F721CEFBD5000A913E /* Main.storyboard */; };
 		DCCEE0FB21CEFBD6000A913E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCEE0FA21CEFBD6000A913E /* Assets.xcassets */; };
 		DCCEE0FE21CEFBD6000A913E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCEE0FC21CEFBD6000A913E /* LaunchScreen.storyboard */; };
+		DCCEE10921CEFC95000A913E /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCEE10521CEFC94000A913E /* HistoryTableViewCell.swift */; };
+		DCCEE10A21CEFC95000A913E /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCEE10621CEFC94000A913E /* LocationManager.swift */; };
+		DCCEE10B21CEFC95000A913E /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCEE10721CEFC94000A913E /* LocationViewController.swift */; };
+		DCCEE10C21CEFC95000A913E /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCEE10821CEFC95000A913E /* HistoryViewController.swift */; };
+		DCF27E7321CFB5AB00E13C56 /* LocationFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF27E7221CFB5AB00E13C56 /* LocationFetcher.swift */; };
+		DCF27E7721D0016000E13C56 /* WeatherFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF27E7621D0016000E13C56 /* WeatherFetcher.swift */; };
+		DF54E66A1AA2C7FE21747BEC /* Pods_NCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12066D39650697650F39AF33 /* Pods_NCTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12066D39650697650F39AF33 /* Pods_NCTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NCTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		400A3E9E0E88033166BBD67E /* Pods-NCTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NCTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NCTest/Pods-NCTest.debug.xcconfig"; sourceTree = "<group>"; };
 		DCCEE0F021CEFBD5000A913E /* NCTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NCTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCCEE0F321CEFBD5000A913E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DCCEE0F521CEFBD5000A913E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DCCEE0F821CEFBD5000A913E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCCEE0FA21CEFBD6000A913E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCCEE0FD21CEFBD6000A913E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCCEE0FF21CEFBD6000A913E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCCEE10521CEFC94000A913E /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		DCCEE10621CEFC94000A913E /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		DCCEE10721CEFC94000A913E /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		DCCEE10821CEFC95000A913E /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		DCF27E7221CFB5AB00E13C56 /* LocationFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationFetcher.swift; sourceTree = "<group>"; };
+		DCF27E7621D0016000E13C56 /* WeatherFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherFetcher.swift; sourceTree = "<group>"; };
+		E913037EB00E24AEB41CF630 /* Pods-NCTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NCTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-NCTest/Pods-NCTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF54E66A1AA2C7FE21747BEC /* Pods_NCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3635083AD7592E5729FA55AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				400A3E9E0E88033166BBD67E /* Pods-NCTest.debug.xcconfig */,
+				E913037EB00E24AEB41CF630 /* Pods-NCTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		58A75BDE6B0A7991B5BDB857 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12066D39650697650F39AF33 /* Pods_NCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DCCEE0E721CEFBD5000A913E = {
 			isa = PBXGroup;
 			children = (
 				DCCEE0F221CEFBD5000A913E /* NCTest */,
 				DCCEE0F121CEFBD5000A913E /* Products */,
+				3635083AD7592E5729FA55AF /* Pods */,
+				58A75BDE6B0A7991B5BDB857 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,7 +89,12 @@
 			isa = PBXGroup;
 			children = (
 				DCCEE0F321CEFBD5000A913E /* AppDelegate.swift */,
-				DCCEE0F521CEFBD5000A913E /* ViewController.swift */,
+				DCCEE10521CEFC94000A913E /* HistoryTableViewCell.swift */,
+				DCCEE10621CEFC94000A913E /* LocationManager.swift */,
+				DCCEE10721CEFC94000A913E /* LocationViewController.swift */,
+				DCF27E7621D0016000E13C56 /* WeatherFetcher.swift */,
+				DCF27E7221CFB5AB00E13C56 /* LocationFetcher.swift */,
+				DCCEE10821CEFC95000A913E /* HistoryViewController.swift */,
 				DCCEE0F721CEFBD5000A913E /* Main.storyboard */,
 				DCCEE0FA21CEFBD6000A913E /* Assets.xcassets */,
 				DCCEE0FC21CEFBD6000A913E /* LaunchScreen.storyboard */,
@@ -71,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCCEE10221CEFBD6000A913E /* Build configuration list for PBXNativeTarget "NCTest" */;
 			buildPhases = (
+				380B05137FB02413C933FB3A /* [CP] Check Pods Manifest.lock */,
 				DCCEE0EC21CEFBD5000A913E /* Sources */,
 				DCCEE0ED21CEFBD5000A913E /* Frameworks */,
 				DCCEE0EE21CEFBD5000A913E /* Resources */,
+				CC065B1C4CFEDBF6CD285098 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +171,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		380B05137FB02413C933FB3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NCTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC065B1C4CFEDBF6CD285098 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NCTest/Pods-NCTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NCTest/Pods-NCTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DCCEE0EC21CEFBD5000A913E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCCEE0F621CEFBD5000A913E /* ViewController.swift in Sources */,
+				DCF27E7721D0016000E13C56 /* WeatherFetcher.swift in Sources */,
+				DCCEE10C21CEFC95000A913E /* HistoryViewController.swift in Sources */,
+				DCCEE10A21CEFC95000A913E /* LocationManager.swift in Sources */,
+				DCF27E7321CFB5AB00E13C56 /* LocationFetcher.swift in Sources */,
+				DCCEE10921CEFC95000A913E /* HistoryTableViewCell.swift in Sources */,
+				DCCEE10B21CEFC95000A913E /* LocationViewController.swift in Sources */,
 				DCCEE0F421CEFBD5000A913E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,11 +377,13 @@
 		};
 		DCCEE10321CEFBD6000A913E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 400A3E9E0E88033166BBD67E /* Pods-NCTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QUQ986ZABA;
 				INFOPLIST_FILE = NCTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +397,13 @@
 		};
 		DCCEE10421CEFBD6000A913E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E913037EB00E24AEB41CF630 /* Pods-NCTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QUQ986ZABA;
 				INFOPLIST_FILE = NCTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
