@@ -25,13 +25,13 @@ class LocationFetcher {
         if let fetchedLocation = locationManager.location {
             location.latitude = fetchedLocation.coordinate.latitude
             location.longtitude = fetchedLocation.coordinate.longitude
-            getPlaceNames(location: fetchedLocation, completion: complition)
+            getPlaceNames(clLocation: fetchedLocation, completion: complition)
         } else {
             print("Location: No fetched location")
             
             //debug
             let  location = CLLocation(latitude: 53.9620, longitude: 27.6733)
-            getPlaceNames(location: location, completion: complition)
+            getPlaceNames(clLocation: location, completion: complition)
             ///////
         }
     }
@@ -59,11 +59,11 @@ class LocationFetcher {
         }
     }
     
-    func getPlaceNames(location: CLLocation, completion: @escaping (Location) -> ()) {
+    func getPlaceNames(clLocation: CLLocation, completion: @escaping (Location) -> ()) {
         var placeDescryption = ""
         let geoCoder = CLGeocoder()
         
-        geoCoder.reverseGeocodeLocation(location, preferredLocale: Locale(identifier: "en_US")) { placemarks, error in
+        geoCoder.reverseGeocodeLocation(clLocation, preferredLocale: Locale(identifier: "en_US")) { placemarks, error in
             if let placemarks = placemarks {
                 if let country = placemarks[0].country {
                     placeDescryption += country

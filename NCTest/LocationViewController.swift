@@ -17,29 +17,45 @@ class LocationViewController: UIViewController {
     @IBOutlet weak var weatherLabel: UILabel!
 
     var locationFetcher = LocationFetcher()
+    var areaInfo = AreaInfo()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("View Loaded")
     }
     
     override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
-        
+        fetchAreaInfo()
+    }
+    
+    
+    func fetchAreaInfo()  {
         locationFetcher.fetchLocation() { location in
             let weatherFetcher = WeatherFetcher.init(location: location)
-            weatherFetcher.fetchWeather() { forecast in
-                self.latitudeLabel.text =  String.localizedStringWithFormat("%.4f", location.latitude)
-                self.longtitudeLabel.text =  String.localizedStringWithFormat("%.4f", location.longtitude)
-                self.placeLabel.text = location.placename
-                self.weatherLabel.text = "\(forecast.currently.summary), \(forecast.currently.temperature)°C, \(forecast.currently.pressure)kPa"
+            weatherFetcher.fetchWeather() { [unowned self] forecast in
+                self.areaInfo.location = location
+                self.areaInfo.weatherForecast = forecast
+                self.displayAreaInfo(areaInfo: self.areaInfo)
             }
         }
     }
     
+    func displayAreaInfo(areaInfo:  AreaInfo) {
+        let location = areaInfo.location!
+        let forecast = areaInfo.weatherForecast!
+        let date = areaInfo.date
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "dd.MM.YYYY"
+        self.dateLabel.text = dateFormatter.string(from: date)
+        self.latitudeLabel.text =  String.localizedStringWithFormat("%.4f", location.latitude)
+        self.longtitudeLabel.text =  String.localizedStringWithFormat("%.4f", location.longtitude)
+        self.placeLabel.text = location.placename
+        self.weatherLabel.text = "\(forecast.currently.summary), \(forecast.currently.temperature)°C, \(forecast.currently.pressure)kPa"
+    }
+    
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        print("View Appeareded")
     }
     
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DCB2F4CA21D00CC500F594F6 /* AreaInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB2F4C921D00CC500F594F6 /* AreaInfo.swift */; };
 		DCCEE0F421CEFBD5000A913E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCEE0F321CEFBD5000A913E /* AppDelegate.swift */; };
 		DCCEE0F921CEFBD5000A913E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCEE0F721CEFBD5000A913E /* Main.storyboard */; };
 		DCCEE0FB21CEFBD6000A913E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCEE0FA21CEFBD6000A913E /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		12066D39650697650F39AF33 /* Pods_NCTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NCTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		400A3E9E0E88033166BBD67E /* Pods-NCTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NCTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NCTest/Pods-NCTest.debug.xcconfig"; sourceTree = "<group>"; };
+		DCB2F4C921D00CC500F594F6 /* AreaInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaInfo.swift; sourceTree = "<group>"; };
 		DCCEE0F021CEFBD5000A913E /* NCTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NCTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCCEE0F321CEFBD5000A913E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCCEE0F821CEFBD5000A913E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				DCCEE10621CEFC94000A913E /* LocationManager.swift */,
 				DCCEE10721CEFC94000A913E /* LocationViewController.swift */,
 				DCF27E7621D0016000E13C56 /* WeatherFetcher.swift */,
+				DCB2F4C921D00CC500F594F6 /* AreaInfo.swift */,
 				DCF27E7221CFB5AB00E13C56 /* LocationFetcher.swift */,
 				DCCEE10821CEFC95000A913E /* HistoryViewController.swift */,
 				DCCEE0F721CEFBD5000A913E /* Main.storyboard */,
@@ -233,6 +236,7 @@
 				DCF27E7321CFB5AB00E13C56 /* LocationFetcher.swift in Sources */,
 				DCCEE10921CEFC95000A913E /* HistoryTableViewCell.swift in Sources */,
 				DCCEE10B21CEFC95000A913E /* LocationViewController.swift in Sources */,
+				DCB2F4CA21D00CC500F594F6 /* AreaInfo.swift in Sources */,
 				DCCEE0F421CEFBD5000A913E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
